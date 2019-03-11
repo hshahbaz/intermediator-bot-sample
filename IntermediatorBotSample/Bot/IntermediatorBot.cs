@@ -20,7 +20,7 @@ namespace IntermediatorBotSample.Bot
             {
                 Title = "Hello!",
                 Subtitle = "I am Intermediator Bot",
-                Text = $"My purpose is to serve as a sample on how to implement the human hand-off. Click/tap the button below or type \"{new Command(Commands.ShowOptions).ToString()}\" to see all possible commands. To learn more visit <a href=\"{SampleUrl}\">{SampleUrl}</a>.",
+                Text = $"My purpose is to serve as a sample on how to implement the human hand-off. Click/tap the button below or type \"{new Command(Commands.ShowOptions).ToString()}\" to see all possible commands.",
                 Buttons = new List<CardAction>()
                 {
                     new CardAction()
