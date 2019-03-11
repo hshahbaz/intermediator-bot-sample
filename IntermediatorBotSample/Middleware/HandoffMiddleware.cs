@@ -124,7 +124,7 @@ namespace IntermediatorBotSample.Middleware
 
                         // Check for cry for help (agent assistance)
                         if (!string.IsNullOrWhiteSpace(activity.Text)
-                            && activity.Text.ToLower().Contains("human"))
+                            && activity.Text.ToLower().Contains("customer"))
                         {
                             // Create a connection request on behalf of the sender
                             // Note that the returned result must be handled
